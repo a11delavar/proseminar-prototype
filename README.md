@@ -3,7 +3,7 @@
 - [ ] **[?]**   Bei einem Antrag das Feld `formular` mit allen Feldern des Antrags ergänzen. Dabei sollten Felder von Typen `text`, `number`, `date`, `boolean`, `email` Erfasst werden
 - [ ] **[AD]**  Suche implementieren
 - [ ] **[AD]**  Formular implementieren
-- [ ] **[?]**   Fragen, die das System an Chatbot stellen sollte
+- [ ] **[EO]**   Fragen, die das System an Chatbot stellen sollte
 - [ ] **[?]**   5 minutige Präsentationsidee & 15 minutige Gruppendiskussion vorbereiten
 - [ ] **[?]**   SWOT Analysis & Welche aspekte sind wichtig?
 - [ ] **[?]**   2 DPs vorstellen, 2 Frage pro DP, DPs evaluieren

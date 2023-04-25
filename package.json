@@ -1,0 +1,29 @@
+{
+	"name": "proseminar-prototype",
+	"version": "0.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "npm install && webpack serve --config webpack.config.js --open --mode=development"
+	},
+	"author": "",
+	"license": "ISC",
+	"type": "module",
+	"devDependencies": {
+		"html-webpack-plugin": "^5.5.1",
+		"resolve-typescript-plugin": "^2.0.1",
+		"ts-loader": "^9.4.2",
+		"tsconfig-paths-webpack-plugin": "^4.0.1",
+		"webpack-cli": "^5.0.2",
+		"webpack-dev-server": "^4.13.3"
+	},
+	"dependencies": {
+		"@3mo/button": "^0.2.6",
+		"@3mo/card": "^0.2.2",
+		"@3mo/field": "^0.0.2",
+		"@3mo/flex": "^1.0.6",
+		"@3mo/grid": "^1.0.3",
+		"@a11d/lit": "^0.2.10",
+		"@a11d/lit-application": "^0.0.40"
+	}
+}

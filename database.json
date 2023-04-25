@@ -1,0 +1,107 @@
+[
+	{
+		"id": 1,
+		"name": "Bürgeramt Test",
+		"antraege": [
+			{
+				"id": 1,
+				"name": "Antrag 1",
+				"formular": {
+					"id": 1,
+					"name": "Formular 1",
+					"felder": [
+						{
+							"id": 1,
+							"name": "Feld 1",
+							"typ": "text"
+						},
+						{
+							"id": 2,
+							"name": "Feld 2",
+							"typ": "text"
+						},
+						{
+							"id": 3,
+							"name": "Feld 3",
+							"typ": "text"
+						}
+					]
+				}
+			},
+			{
+				"id": 2,
+				"name": "Antrag 2"
+			}
+		]
+	},
+	{
+		"id": 2,
+		"name": "Bürgeramt 2",
+		"antraege": [
+			{
+				"id": 3,
+				"name": "Antrag 3"
+			},
+			{
+				"id": 4,
+				"name": "Antrag 4"
+			}
+		]
+	},
+	{
+		"id": 3,
+		"name": "Bürgeramt 3",
+		"antraege": [
+			{
+				"id": 5,
+				"name": "Antrag 5"
+			},
+			{
+				"id": 6,
+				"name": "Antrag 6"
+			}
+		]
+	},
+	{
+		"id": 4,
+		"name": "Bürgeramt 4",
+		"antraege": [
+			{
+				"id": 7,
+				"name": "Antrag 7"
+			},
+			{
+				"id": 8,
+				"name": "Antrag 8"
+			}
+		]
+	},
+	{
+		"id": 5,
+		"name": "Bürgeramt 5",
+		"antraege": [
+			{
+				"id": 9,
+				"name": "Antrag 9"
+			},
+			{
+				"id": 10,
+				"name": "Antrag 10"
+			}
+		]
+	},
+	{
+		"id": 6,
+		"name": "Bürgeramt 6",
+		"antraege": [
+			{
+				"id": 11,
+				"name": "Antrag 11"
+			},
+			{
+				"id": 12,
+				"name": "Antrag 12"
+			}
+		]
+	}
+]

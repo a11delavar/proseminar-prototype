@@ -1,6 +1,6 @@
 # Aufgaben
 - [ ] **[?]**   In database.json eine realistische Liste aus Behörden & Anträge finden und ergänzen.
-- [ ] **[?]**   Bei einem Antrag das Feld `formular` mit allen Feldern des Antrags ergänzen. Dabei sollten Felder von Typen `text`, `number`, `date`, `boolean`, `email` Erfasst werden
+- [ ] **[EO]**   Bei einem Antrag das Feld `formular` mit allen Feldern des Antrags ergänzen. Dabei sollten Felder von Typen `text`, `number`, `date`, `boolean`, `email` Erfasst werden
 - [ ] **[AD]**  Suche implementieren
 - [ ] **[AD]**  Formular implementieren
 - [ ] **[EO]**   Fragen, die das System an Chatbot stellen sollte

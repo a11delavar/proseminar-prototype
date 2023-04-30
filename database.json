@@ -1,793 +1,965 @@
 [
-	{
-		"id": 1,
-		"name": "Bürgeramt Test",
-		"antraege": [
-			{
-				"id": 1,
-				"name": "Antrag 1",
-				"formular": {
-					"id": 1,
-					"name": "Formular 1",
-					"felder": [
-						{
-							"id": 1,
-							"name": "Feld 1",
-							"typ": "text"
-						},
-						{
-							"id": 2,
-							"name": "Feld 2",
-							"typ": "text"
-						},
-						{
-							"id": 3,
-							"name": "Feld 3",
-							"typ": "text"
-						}
-					]
-				}
-			},
-			{
-				"id": 2,
-				"name": "Antrag 2"
-			}
-		]
-	},
-	{
-		"id": 2,
-		"name": "Bürgeramt 2",
-		"antraege": [
-			{
-				"id": 3,
-				"name": "Antrag 3"
-			},
-			{
-				"id": 4,
-				"name": "Antrag 4"
-			}
-		]
-	},
-	{
-		"id": 3,
-		"name": "Bürgeramt 3",
-		"antraege": [
-			{
-				"id": 5,
-				"name": "Antrag 5"
-			},
-			{
-				"id": 6,
-				"name": "Antrag 6"
-			}
-		]
-	},
-	{
-		"id": 4,
-		"name": "Bürgeramt 4",
-		"antraege": [
-			{
-				"id": 7,
-				"name": "Antrag 7"
-			},
-			{
-				"id": 8,
-				"name": "Antrag 8"
-			}
-		]
-	},
-	{
-		"id": 5,
-		"name": "Bürgeramt 5",
-		"antraege": [
-			{
-				"id": 9,
-				"name": "Antrag 9"
-			},
-			{
-				"id": 10,
-				"name": "Antrag 10"
-			}
-		]
-	},
-	{
-		"id": 6,
-		"name": "Bürgeramt 6",
-		"antraege": [
-			{
-				"id": 11,
-				"name": "Antrag 11"
-			},
-			{
-				"id": 12,
-				"name": "Antrag 12"
-			}
-		]
-	},
-	{
-		"id": 7,
-		"name": "Bundesagentur für Arbeit",
-		"antraege": [
-			{
-				"id": 1,
-				"name": "Antrag auf Vorabentscheidung zur Altersteilzeit"
-			},
-			{
-				"id": 2,
-				"name": "Antrag auf Anerkennung der Voraussetzungen (AtG 200)"
-			},
-			{
-				"id": 3,
-				"name": "Antrag auf Wiederbewilligung"
-			},
-			{
-				"id": 4,
-				"name": "Antrag auf Erstattung von Leistungen (AtG 300)"
-			},
-			{
-				"id": 5,
-				"name": "Antrag Zuständigkeit (AtG 400)"
-			},
-			{
-				"id": 6,
-				"name": "Antrag auf Gewährung von Leistungen (AtG 500)"
-			},
-			{
-				"id": 7,
-				"name": "Erklärung zur Gewährung von Leistungen (AtG 600)"
-			},
-			{
-				"id": 8,
-				"name": "Anlage A zum Antrag auf Anerkennung der Voraussetzungen"
-			},
-			{
-				"id": 9,
-				"name": "Anlage zum Antrag auf Erstattung von Leistungen (AtG 300.A)"
-			},
-			{
-				"id": 10,
-				"name": "Antrag auf Erlaubnis zur Arbeitnehmerüberlassung (AÜG 2a)"
-			},
-			{
-				"id": 11,
-				"name": "Anzeige der Überlassung eines Arbeitnehmers (AÜG 2b)"
-			},
-			{
-				"id": 12,
-				"name": "Angaben zur Baubetriebeeigenschaft (AÜG 2c)"
-			},
-			{
-				"id": 13,
-				"name": "Liste der Leiharbeitskräfte – Muster"
-			},
-			{
-				"id": 14,
-				"name": "Bescheinigung der Bonität (AÜG 5)"
-			},
-			{
-				"id": 15,
-				"name": "Bescheinigung der Krankenkasse (AÜG 6)"
-			},
-			{
-				"id": 16,
-				"name": "Bescheinigung der Berufsgenossenschaft (AÜG 7)"
-			},
-			{
-				"id": 17,
-				"name": "Arbeitsuchend melden"
-			},
-			{
-				"id": 18,
-				"name": "Arbeitslosengeld beantragen"
-			},
-			{
-				"id": 19,
-				"name": "Veränderung mitteilen"
-			},
-			{
-				"id": 20,
-				"name": "Arbeitsaufnahme mitteilen"
-			},
-			{
-				"id": 21,
-				"name": "Urlaub beantragen"
-			},
-			{
-				"id": 22,
-				"name": "Krankheit melden"
-			},
-			{
-				"id": 23,
-				"name": "Veränderungsmitteilung zum Arbeitslosengeld"
-			},
-			{
-				"id": 24,
-				"name": "Erklärung zu selbstständiger Tätigkeit sowie Land- und Forstwirtschaft"
-			},
-			{
-				"id": 25,
-				"name": "Bescheinigung zur Versicherungspflicht im Bereich SGB III"
-			},
-			{
-				"id": 26,
-				"name": "Arbeitsbescheinigung für den Antrag auf Arbeitslosengeld"
-			},
-			{
-				"id": 27,
-				"name": "Arbeitsbescheinigung für Gefangene"
-			},
-			{
-				"id": 28,
-				"name": "Bescheinigung über Nebeneinkommen bei Bezug von Arbeitslosengeld"
-			},
-			{
-				"id": 29,
-				"name": "Bescheinigung zur Übernahme von Beiträgen der Altersvorsorge"
-			},
-			{
-				"id": 30,
-				"name": "Bescheinigung zur Übernahme von Beiträgen der Kranken- und Pflegeversicherung"
-			},
-			{
-				"id": 31,
-				"name": "Bescheinigung für den Bezug von Teilarbeitslosengeld"
-			},
-			{
-				"id": 32,
-				"name": "Zusatzblatt Werbungskosten"
-			},
-			{
-				"id": 33,
-				"name": "Zusatzblatt für Familienangehörige zum Antrag auf Arbeitslosengeld"
-			},
-			{
-				"id": 34,
-				"name": "Zusatzblatt für Gesellschafter oder Geschäftsführer zum Antrag auf Arbeitslosengeld"
-			},
-			{
-				"id": 35,
-				"name": "Zusatzblatt für Schülerinnen, Schüler und Studierende zum Antrag auf Arbeitslosengeld"
-			},
-			{
-				"id": 36,
-				"name": "Zusatzblatt zur Sozialversicherung zum Antrag auf Arbeitslosengeld"
-			},
-			{
-				"id": 37,
-				"name": "Zusatzblatt Zeiten der Kindererziehung"
-			},
-			{
-				"id": 38,
-				"name": "Unfallfragebogen"
-			},
-			{
-				"id": 39,
-				"name": "Fragebogen zu Auslandszeiten"
-			},
-			{
-				"id": 40,
-				"name": "Ver­änderungs­mitteilung"
-			},
-			{
-				"id": 41,
-				"name": "Weiter­­­be­willigungs­­antrag"
-			},
-			{
-				"id": 42,
-				"name": "Ortsabwesenheit online anfragen"
-			},
-			{
-				"id": 43,
-				"name": "Antrag auf Bürgergeld nach dem Zweiten Buch Sozialgesetzbuch (SGB II)"
-			},
-			{
-				"id": 44,
-				"name": "Antrag auf Weiterbewilligung des Bürgergeldes nach dem Zweiten Buch Sozialgesetzbuch SGB II"
-			},
-			{
-				"id": 45,
-				"name": "Veränderungsmitteilung bei Bezug von Bürgergeld nach dem Zweiten Buch Sozialgesetzbuch SGB II"
-			},
-			{
-				"id": 46,
-				"name": "Anfrage Ortsabwesenheit"
-			},
-			{
-				"id": 47,
-				"name": "Arbeitsbescheinigung für den Antrag auf Bürgergeld"
-			},
-			{
-				"id": 48,
-				"name": "Formular zur Einkommensbescheinigung"
-			},
-			{
-				"id": 49,
-				"name": "Anlage für eine weitere Person ab 15 Jahren in der Bedarfsgemeinschaft (WEP)"
-			},
-			{
-				"id": 50,
-				"name": "Anlage für ein Kind unter 15 Jahren in der Bedarfsgemeinschaft (KI)"
-			},
-			{
-				"id": 51,
-				"name": "Anlage zur Feststellung der Kosten der Unterkunft und Heizung (KDU)"
-			},
-			{
-				"id": 52,
-				"name": "Anlage zur Feststellung der Einkommensverhältnisse einer in der Bedarfsgemeinschaft lebenden Person ab 15 Jahren"
-			},
-			{
-				"id": 53,
-				"name": "Anlage zum Einkommen Selbstständiger (EKS)"
-			},
-			{
-				"id": 54,
-				"name": "Anlage zur Selbstauskunft/Feststellung der Vermögensverhältnisse der Bedarfsgemeinschaft"
-			},
-			{
-				"id": 55,
-				"name": "Anlage zur Verantwortungs- und Einstehensgemeinschaft (VE)"
-			},
-			{
-				"id": 56,
-				"name": "Sozialversicherung der Bezieherinnen und Bezieher von Bürgergeld (SV)"
-			},
-			{
-				"id": 57,
-				"name": "Anlage bei Vorliegen einer Haushaltsgemeinschaft (HG)"
-			},
-			{
-				"id": 58,
-				"name": "Anlage zum Mehrbedarf für kostenaufwändige Ernährung (MEB)"
-			},
-			{
-				"id": 59,
-				"name": "Anlage für Unterhaltsansprüche gegenüber getrennt Lebenden (UH1)"
-			},
-			{
-				"id": 60,
-				"name": "Anlage für Unterhaltsansprüche bei Schwangerschaft und Betreuung nichtehelicher Kinder (UH2)"
-			},
-			{
-				"id": 61,
-				"name": "Anlage für Unterhaltsansprüche von Kindern unter 25 Jahren (UH3)"
-			},
-			{
-				"id": 62,
-				"name": "Anlage für Unterhaltsansprüche gegenüber Elternteilen außerhalb der Bedarfsgemeinschaft (UH4)"
-			},
-			{
-				"id": 63,
-				"name": "Anlage für besondere Bedarfe (BB)"
-			},
-			{
-				"id": 64,
-				"name": "Unfallfragebogen zum Antrag auf Bürgergeld nach dem Zweiten Buch Sozialgesetzbuch (SGB II) (UF)"
-			},
-			{
-				"id": 65,
-				"name": "Anlage zur Schweigepflichtentbindung (SE)"
-			},
-			{
-				"id": 66,
-				"name": "Antrag auf Ausstellung eines PD U1"
-			},
-			{
-				"id": 67,
-				"name": "Fragebogen zu Auslandszeiten"
-			},
-			{
-				"id": 68,
-				"name": "Zusatzblatt zur Prüfung von Grenzgängern zum Antrag auf Arbeitslosengeld"
-			},
-			{
-				"id": 69,
-				"name": "Antrag auf Ausstellung eines E 301"
-			},
-			{
-				"id": 70,
-				"name": "Vordruck zur Erklärung zum Werkvertrag"
-			},
-			{
-				"id": 71,
-				"name": "Erklärung zum Liefer- und Montagevertrag von Fertighausherstellern mit Sitz im Ausland"
-			},
-			{
-				"id": 72,
-				"name": "Antrag auf Auszahlung der Vermittlungsvergütung (für Gutscheine mit einem Gültigkeitsbeginn bis einschließlich 31.12.2021)"
-			},
-			{
-				"id": 73,
-				"name": "Antrag auf Auszahlung der Vermittlungsvergütung (für Gutscheine mit einem Gültigkeitsbeginn ab 01.01.2022)"
-			},
-			{
-				"id": 74,
-				"name": "Formular zur Vermittlungs- und Beschäftigungsbestätigung"
-			},
-			{
-				"id": 75,
-				"name": "Erklärung des Au-pair zum Empfang der Au-pair-Informationen"
-			},
-			{
-				"id": 76,
-				"name": "Au-Pair Fragebogen für Gasteltern"
-			},
-			{
-				"id": 77,
-				"name": "Au-Pair-Vertrag"
-			},
-			{
-				"id": 78,
-				"name": "Berufsausbildungsbeihilfe"
-			},
-			{
-				"id": 79,
-				"name": "Betriebsnummer beantragen"
-			},
-			{
-				"id": 80,
-				"name": "Kurzfragebogen für zugelassene Maßnahmen"
-			},
-			{
-				"id": 81,
-				"name": "Anlage zum Kurzfragebogen für zugelassene Maßnahmen"
-			},
-			{
-				"id": 82,
-				"name": "Formular für den teilnehmerbezogenen Bericht (nur für den Rechtskreis SGB II)"
-			},
-			{
-				"id": 83,
-				"name": "Formular für Maßnahmen bei einem Arbeitgeber"
-			},
-			{
-				"id": 84,
-				"name": "Formular zur Teilnahmebescheinigung an einer Maßnahme zur Teilhabe behinderter Menschen am Arbeitsleben"
-			},
-			{
-				"id": 85,
-				"name": "Antrag auf Weiterzahlung der Lehrgangskosten im Bereich SGB II"
-			},
-			{
-				"id": 86,
-				"name": "Formular zur Austritts- oder Nichtantrittsmeldung im Bereich SGB II"
-			},
-			{
-				"id": 87,
-				"name": "Formular zur Bescheinigung von Fehlzeiten im Bereich SGB II"
-			},
-			{
-				"id": 88,
-				"name": "Formular zur Änderungsmitteilung bei Weiterbildungsmaßnahmen im Bereich SGB II"
-			},
-			{
-				"id": 89,
-				"name": "Anzeige zur Entlassung gemäß Kündigungsschutzgesetz"
-			},
-			{
-				"id": 90,
-				"name": "Liste für Angaben für die Arbeitsvermittlung"
-			},
-			{
-				"id": 91,
-				"name": "Angebot Ferienjob"
-			},
-			{
-				"id": 92,
-				"name": "Formular zur Bewerbung für Ferienbeschäftigung von ausländischen Studierenden"
-			},
-			{
-				"id": 93,
-				"name": "Antragsformular Ferienbeschäftigung für ausländische Studierende, Fachschüler/innen"
-			},
-			{
-				"id": 94,
-				"name": "Declaration of Certificate of Enrolment"
-			},
-			{
-				"id": 95,
-				"name": "Hinweise zum Versicherungspflichtverhältnis auf Antrag in der Arbeitslosenversicherung"
-			},
-			{
-				"id": 96,
-				"name": "Antrag auf Versicherungspflichtverhältnis für Auslandsbeschäftigte"
-			},
-			{
-				"id": 97,
-				"name": "Antrag auf Versicherungspflichtverhältnis bei beruflicher Weiterbildung"
-			},
-			{
-				"id": 98,
-				"name": "Antrag auf Versicherungspflichtverhältnis bei Elternzeit"
-			},
-			{
-				"id": 99,
-				"name": "Antrag auf Versicherungspflichtverhältnis für Selbstständige"
-			},
-			{
-				"id": 100,
-				"name": "Versicherungspflichtverhältnis auf Antrag - Arbeitsbescheinigung"
-			},
-			{
-				"id": 101,
-				"name": "Versicherungspflichtverhältnis auf Antrag - Veränderungsanzeige"
-			},
-			{
-				"id": 102,
-				"name": "SEPA-Lastschriftmandat"
-			},
-			{
-				"id": 103,
-				"name": "Insolvenzgeld"
-			},
-			{
-				"id": 104,
-				"name": "Antrag auf Insolvenzgeld"
-			},
-			{
-				"id": 105,
-				"name": "Zusatzblatt für Familienangehörige zum Antrag auf Insolvenzgeld"
-			},
-			{
-				"id": 106,
-				"name": "Zusatzblatt für Gesellschafter(innen) und Geschäftsführer(innen) zum Antrag auf Insolvenzgeld"
-			},
-			{
-				"id": 107,
-				"name": "Antrag auf Zustimmung zur Vorfinanzierung"
-			},
-			{
-				"id": 108,
-				"name": "Antrag auf Insolvenzgeld für Dritte"
-			},
-			{
-				"id": 109,
-				"name": "Antrag auf Insolvenzgeld für Einzugsstellen"
-			},
-			{
-				"id": 110,
-				"name": "Bescheinigung für Insolvenzgeld"
-			},
-			{
-				"id": 111,
-				"name": "Kindergeld ab Geburt"
-			},
-			{
-				"id": 112,
-				"name": "Kindergeld für Kinder ab 18 Jahren"
-			},
-			{
-				"id": 113,
-				"name": "Antrag auf Kindergeld (KG1)"
-			},
-			{
-				"id": 114,
-				"name": "Anlage Kind zum Hauptantrag Kindergeld (KG1-AnK)"
-			},
-			{
-				"id": 115,
-				"name": "Veränderungen zum Kindergeld"
-			},
-			{
-				"id": 116,
-				"name": "Veränderungsmitteilung für das Kindergeld (KG45)"
-			},
-			{
-				"id": 117,
-				"name": "Bescheinigung für das Kindergeld zum möglichen Umfang der Erwerbstätigkeit (KG 4l)"
-			},
-			{
-				"id": 118,
-				"name": "Bescheinigung für das Kindergeld über die Notwendigkeit der ständigen Begleitung (KG 4m)"
-			},
-			{
-				"id": 119,
-				"name": "Antrag auf Auszahlung des Kindergeldes - Abzweigungsantrag (KG 11e)"
-			},
-			{
-				"id": 120,
-				"name": "Erklärung für ein Kind ohne Ausbildungs- oder Arbeitsplatz (KG 11a)"
-			},
-			{
-				"id": 121,
-				"name": "Antrag auf Kindergeld für Vollwaisen"
-			},
-			{
-				"id": 122,
-				"name": "Schulbescheinigung für das Kindergeld (KG 5a)"
-			},
-			{
-				"id": 123,
-				"name": "Lebensbescheinigung für das Kindergeld (KG 3b)"
-			},
-			{
-				"id": 124,
-				"name": "Bescheinigung für das Kindergeld über das Vorliegen einer Behinderung (KG 4i)"
-			},
-			{
-				"id": 125,
-				"name": "Bescheinigung für das Kindergeld über unbedingt erforderliche Betreuungsleistungen (KG 4k)"
-			},
-			{
-				"id": 126,
-				"name": "Bescheinigung für das Kindergeld zum möglichen Umfang der Erwerbstätigkeit (KG 4l)"
-			},
-			{
-				"id": 127,
-				"name": "Bescheinigung für das Kindergeld über die Notwendigkeit der ständigen Begleitung (KG 4m)"
-			},
-			{
-				"id": 128,
-				"name": "Erklärung zum Ausbildungsverhältnis (KG 5b)"
-			},
-			{
-				"id": 129,
-				"name": "Erklärung zum verfügbaren Nettoeinkommen eines volljährigen Kindes mit Behinderung (KG 4f)"
-			},
-			{
-				"id": 130,
-				"name": "Erklärung zum Nettoeinkommen der Partnerin oder des Partners eines volljährigen Kindes mit Behinderung (KG 4g)"
-			},
-			{
-				"id": 131,
-				"name": "Anlage Ausland zum Antrag auf deutsches Kindergeld (KG 51)"
-			},
-			{
-				"id": 132,
-				"name": "Anlage Ausland für Rentner und Waisen mit Auslandswohnsitz (KG 51R)"
-			},
-			{
-				"id": 133,
-				"name": "Antragspaket zum Kinderzuschlag"
-			},
-			{
-				"id": 134,
-				"name": "Kurzantrag auf Kinderzuschlag bei unveränderten Verhältnissen (KiZ 1-K)"
-			},
-			{
-				"id": 135,
-				"name": "Ausfüllhinweise zum Antrag auf Kinderzuschlag (KiZ 1-H)"
-			},
-			{
-				"id": 136,
-				"name": "Anlage Antragsteller(in) und Partner(in) zum Antrag auf Kinderzuschlag (KiZ 1-AnA)"
-			},
-			{
-				"id": 137,
-				"name": "Verdienstbescheinigung des Arbeitgebers (KiZ 5)"
-			},
-			{
-				"id": 138,
-				"name": "Anlage zum Einkommen aus selbständiger Tätigkeit (KiZ 5a)"
-			},
-			{
-				"id": 139,
-				"name": "Anlage zu Unterhalt und Unterhaltsvorschuss (KiZ 5c)"
-			},
-			{
-				"id": 140,
-				"name": "Anlage zum (erheblichen) Vermögen (KiZ 6)"
-			},
-			{
-				"id": 141,
-				"name": "Anlage zum Mehrbedarf bei kostenaufwändiger Ernährung (KiZ 7)"
-			},
-			{
-				"id": 142,
-				"name": "Zusatzblatt KiZ 1a zum Antrag auf Kinderzuschlag"
-			},
-			{
-				"id": 143,
-				"name": "Änderungsmitteilung zum Kinderzuschlag (KiZ 45)"
-			},
-			{
-				"id": 144,
-				"name": "Anzeige über Arbeitsausfall"
-			},
-			{
-				"id": 145,
-				"name": "Antrag auf Kurzarbeitergeld bis 30.06.2022"
-			},
-			{
-				"id": 146,
-				"name": "Antrag auf Kurzarbeitergeld für Grenzgänger"
-			},
-			{
-				"id": 147,
-				"name": "Antrag auf Transfer-Kurzarbeitergeld"
-			},
-			{
-				"id": 148,
-				"name": "Antrag auf auf Förderung der Teilnahme an Transfermaßnahmen"
-			},
-			{
-				"id": 149,
-				"name": "Projektkalkulation für Transfermaßnahmen nach § 110 SGB III"
-			},
-			{
-				"id": 150,
-				"name": "Liste der Teilnehmenden an Transfermaßnahmen"
-			},
-			{
-				"id": 151,
-				"name": "Abrechnungsliste für Kurzarbeitergeld bis 30.06.2022"
-			},
-			{
-				"id": 152,
-				"name": "Abrechnungsliste für Saison-Kurzarbeitergeld und ergänzende Leistungen - Anlage zum Leistungsantrag auf Saison-Kurzarbeitergeld und ergänzende Leistungen ab 12/2022"
-			},
-			{
-				"id": 153,
-				"name": "Abrechnungsliste für das Transfer-Kurzarbeitergeld"
-			},
-			{
-				"id": 154,
-				"name": "Abrechnungsliste zur Förderung der Teilnahme an Transfermaßnahmen"
-			},
-			{
-				"id": 155,
-				"name": "Studienfachbezogene Praktika - Erfassungsbogen"
-			},
-			{
-				"id": 156,
-				"name": "Verpflichtungserklärung"
-			},
-			{
-				"id": 157,
-				"name": "Empfehlung der fachkundigen Stelle zur selbstständigen Tätigkeit"
-			},
-			{
-				"id": 158,
-				"name": "Antrag auf Versicherungspflichtverhältnis für Selbstständige"
-			},
-			{
-				"id": 159,
-				"name": "Hinweise zum Versicherungspflichtverhältnis auf Antrag in der Arbeitslosenversicherung"
-			},
-			{
-				"id": 160,
-				"name": "Antrag auf Weiterzahlung der Lehrgangskosten im Bereich SGB III"
-			},
-			{
-				"id": 161,
-				"name": "Antrag auf Erstattung der Beitragsaufwendungen für Menschen mit Behinderungen - SGB III"
-			},
-			{
-				"id": 162,
-				"name": "Formular zur Änderungsmitteilung bei Weiterbildungsmaßnahmen"
-			},
-			{
-				"id": 163,
-				"name": "Formular zur Mitteilung von Änderungen zum Erstattungsantrag"
-			},
-			{
-				"id": 164,
-				"name": "Fragebogen zu Erfahrungen mit beruflichen Weiterbildungsmaßnahmen"
-			},
-			{
-				"id": 165,
-				"name": "Kurzfragebogen für Weiterbildungsmaßnahmen"
-			},
-			{
-				"id": 166,
-				"name": "Anlage zum Kurzfragebogen über Maßnahmeabschnitte"
-			},
-			{
-				"id": 167,
-				"name": "Anlage zum Kurzfragebogen für zugelassene Maßnahmen"
-			},
-			{
-				"id": 168,
-				"name": "Ergebnisbogen zur Förderung der beruflichen Weiterbildung"
-			},
-			{
-				"id": 169,
-				"name": "Formular zur Bescheinigung von Fehlzeiten"
-			},
-			{
-				"id": 170,
-				"name": "Formular zur Bescheinigung von Arbeitgeber- und Trägerleistungen"
-			}
-		]
-	}
+   {
+      "id":1,
+      "name":"Bürgeramt Test",
+      "antraege":[
+         {
+            "id":1,
+            "name":"Antrag 1",
+            "formular":{
+               "id":1,
+               "name":"Formular 1",
+               "felder":[
+                  {
+                     "id":1,
+                     "name":"Feld 1",
+                     "typ":"text"
+                  },
+                  {
+                     "id":2,
+                     "name":"Feld 2",
+                     "typ":"text"
+                  },
+                  {
+                     "id":3,
+                     "name":"Feld 3",
+                     "typ":"text"
+                  }
+               ]
+            }
+         },
+         {
+            "id":2,
+            "name":"Antrag 2"
+         }
+      ]
+   },
+   {
+      "id":2,
+      "name":"Bürgeramt 2",
+      "antraege":[
+         {
+            "id":3,
+            "name":"Antrag 3"
+         },
+         {
+            "id":4,
+            "name":"Antrag 4"
+         }
+      ]
+   },
+   {
+      "id":3,
+      "name":"Bürgeramt 3",
+      "antraege":[
+         {
+            "id":5,
+            "name":"Antrag 5"
+         },
+         {
+            "id":6,
+            "name":"Antrag 6"
+         }
+      ]
+   },
+   {
+      "id":4,
+      "name":"Bürgeramt 4",
+      "antraege":[
+         {
+            "id":7,
+            "name":"Antrag 7"
+         },
+         {
+            "id":8,
+            "name":"Antrag 8"
+         }
+      ]
+   },
+   {
+      "id":5,
+      "name":"Bürgeramt 5",
+      "antraege":[
+         {
+            "id":9,
+            "name":"Antrag 9"
+         },
+         {
+            "id":10,
+            "name":"Antrag 10"
+         }
+      ]
+   },
+   {
+      "id":6,
+      "name":"Justizportal des Bundes und der Länder",
+      "antraege":[
+         {
+            "id":11,
+            "name":"Antrag 11"
+         },
+         {
+            "id":12,
+            "name":"Antrag 12"
+         },
+         {
+            "id":0,
+            "name":"Antrag auf Beratungshilfe "
+         },
+         {
+            "id":0,
+            "name":"Antrag auf Prozesskostenhilfe/Verfahrenskostenhilfe"
+         },
+         {
+            "id":0,
+            "name":"Antrag auf Prozesskostenhilfe/Verfahrenskostenhilfe "
+         },
+         {
+            "id":0,
+            "name":"Antrag auf Prozesskostenhilfe/Verfahrenskostenhilfe Hinweisblatt "
+         },
+         {
+            "id":0,
+            "name":"Belehrungsformulare für Festgenommene"
+         },
+         {
+            "id":0,
+            "name":"Merkblatt für ehrenamtliche Richterinnen und Richter "
+         },
+         {
+            "id":0,
+            "name":"Merkblatt für Schöffen "
+         },
+         {
+            "id":0,
+            "name":"Schutzschriftenregister"
+         },
+         {
+            "id":0,
+            "name":"Europäischer Haftbefehl "
+         },
+         {
+            "id":0,
+            "name":"Europäische Vordrucke in Zivil- und Handelssachen"
+         },
+         {
+            "id":0,
+            "name":"Formblatt A "
+         },
+         {
+            "id":0,
+            "name":"Formblatt Europäisches Insolvenzverfahren"
+         },
+         {
+            "id":0,
+            "name":"Antrag auf Festsetzung von Unterhalt ab 01.01.2017 "
+         },
+         {
+            "id":0,
+            "name":"Auskunftsbogen betriebliche Altersversorgung "
+         },
+         {
+            "id":0,
+            "name":"Einwendungen gegen den Antrag auf Festsetzung von Unterhalt ab 01.01.2018 "
+         },
+         {
+            "id":0,
+            "name":"Fragebogen zum Versorgungsausgleich für Ehegatten "
+         },
+         {
+            "id":0,
+            "name":"Fragebogen zum Versorgungsausgleich für Lebenspartner "
+         },
+         {
+            "id":0,
+            "name":"Hinweisblatt für Einwendungen des Antragsgegners ab 01.01.2023 "
+         },
+         {
+            "id":0,
+            "name":"Hinweisblatt für Einwendungen des Antragsgegners bis 31.12.2022 "
+         },
+         {
+            "id":0,
+            "name":"Kindesunterhalt Merkblatt ab 01.01.2023 "
+         },
+         {
+            "id":0,
+            "name":"Kindesunterhalt Merkblatt bis 31.12.2022 "
+         },
+         {
+            "id":0,
+            "name":"Merkblatt zum Auskunftsersuchen betriebliche Altersversorgung (V 22) "
+         },
+         {
+            "id":0,
+            "name":"Pfändungs- und Überweisungsbeschluss (Unterhaltsforderungen) "
+         },
+         {
+            "id":0,
+            "name":"Versorgungsübersicht zu Anrechten aus der betrieblichen Altersversorgung "
+         },
+         {
+            "id":0,
+            "name":"Antragsformular für das Insolvenzverfahren und das Restschuldbefreiungsverfahren "
+         },
+         {
+            "id":0,
+            "name":"Antragsformular für das Insolvenzverfahren und das Restschuldbefreiungsverfahren "
+         },
+         {
+            "id":0,
+            "name":"Formblatt Europäisches Insolvenzverfahren"
+         },
+         {
+            "id":0,
+            "name":"Merkblatt über das Verfahren zur Restschuldbefreiung "
+         },
+         {
+            "id":0,
+            "name":"Verbraucherinsolvenzverfahren und Restschuldbefreiungsverfahren "
+         },
+         {
+            "id":0,
+            "name":"Verbraucherinsolvenzverfahren und Restschuldbefreiungsverfahren "
+         },
+         {
+            "id":0,
+            "name":"Antrag auf Beratungshilfe "
+         },
+         {
+            "id":0,
+            "name":"Antrag auf Festsetzung der Vergütung des beigeordneten Rechtsanwalts "
+         },
+         {
+            "id":0,
+            "name":"Antrag auf Festsetzung der Vergütung des gerichtlich bestellten Verteidigers "
+         },
+         {
+            "id":0,
+            "name":"Antrag auf Festsetzung der Vergütung des im Freiheitsentziehungsverfahren beigeordneten Rechtsanwalts "
+         },
+         {
+            "id":0,
+            "name":"Antrag auf Prozesskostenhilfe/Verfahrenskostenhilfe"
+         },
+         {
+            "id":0,
+            "name":"Antrag auf Prozesskostenhilfe/Verfahrenskostenhilfe "
+         },
+         {
+            "id":0,
+            "name":"Antrag auf Prozesskostenhilfe/Verfahrenskostenhilfe Hinweisblatt "
+         },
+         {
+            "id":0,
+            "name":"Antrag auf Erlass einer richterlichen Durchsuchungsanordnung "
+         },
+         {
+            "id":0,
+            "name":"Pfändungs- und Überweisungsbeschluss (Geldforderungen) "
+         },
+         {
+            "id":0,
+            "name":"Pfändungs- und Überweisungsbeschluss (Unterhaltsforderungen) "
+         },
+         {
+            "id":0,
+            "name":"Vollstreckungsauftrag an die Gerichtsvollzieherin/den Gerichtsvollzieher "
+         },
+         {
+            "id":0,
+            "name":"Antrag auf Erlass einer richterlichen Durchsuchungsanordnung "
+         },
+         {
+            "id":0,
+            "name":"Formblatt A "
+         }
+      ]
+   },
+   {
+      "id":7,
+      "name":"Bundesagentur für Arbeit",
+      "antraege":[
+         {
+            "id":1,
+            "name":"Antrag auf Vorabentscheidung zur Altersteilzeit"
+         },
+         {
+            "id":2,
+            "name":"Antrag auf Anerkennung der Voraussetzungen (AtG 200)"
+         },
+         {
+            "id":3,
+            "name":"Antrag auf Wiederbewilligung"
+         },
+         {
+            "id":4,
+            "name":"Antrag auf Erstattung von Leistungen (AtG 300)"
+         },
+         {
+            "id":5,
+            "name":"Antrag Zuständigkeit (AtG 400)"
+         },
+         {
+            "id":6,
+            "name":"Antrag auf Gewährung von Leistungen (AtG 500)"
+         },
+         {
+            "id":7,
+            "name":"Erklärung zur Gewährung von Leistungen (AtG 600)"
+         },
+         {
+            "id":8,
+            "name":"Anlage A zum Antrag auf Anerkennung der Voraussetzungen"
+         },
+         {
+            "id":9,
+            "name":"Anlage zum Antrag auf Erstattung von Leistungen (AtG 300.A)"
+         },
+         {
+            "id":10,
+            "name":"Antrag auf Erlaubnis zur Arbeitnehmerüberlassung (AÜG 2a)"
+         },
+         {
+            "id":11,
+            "name":"Anzeige der Überlassung eines Arbeitnehmers (AÜG 2b)"
+         },
+         {
+            "id":12,
+            "name":"Angaben zur Baubetriebeeigenschaft (AÜG 2c)"
+         },
+         {
+            "id":13,
+            "name":"Liste der Leiharbeitskräfte – Muster"
+         },
+         {
+            "id":14,
+            "name":"Bescheinigung der Bonität (AÜG 5)"
+         },
+         {
+            "id":15,
+            "name":"Bescheinigung der Krankenkasse (AÜG 6)"
+         },
+         {
+            "id":16,
+            "name":"Bescheinigung der Berufsgenossenschaft (AÜG 7)"
+         },
+         {
+            "id":17,
+            "name":"Arbeitsuchend melden"
+         },
+         {
+            "id":18,
+            "name":"Arbeitslosengeld beantragen"
+         },
+         {
+            "id":19,
+            "name":"Veränderung mitteilen"
+         },
+         {
+            "id":20,
+            "name":"Arbeitsaufnahme mitteilen"
+         },
+         {
+            "id":21,
+            "name":"Urlaub beantragen"
+         },
+         {
+            "id":22,
+            "name":"Krankheit melden"
+         },
+         {
+            "id":23,
+            "name":"Veränderungsmitteilung zum Arbeitslosengeld"
+         },
+         {
+            "id":24,
+            "name":"Erklärung zu selbstständiger Tätigkeit sowie Land- und Forstwirtschaft"
+         },
+         {
+            "id":25,
+            "name":"Bescheinigung zur Versicherungspflicht im Bereich SGB III"
+         },
+         {
+            "id":26,
+            "name":"Arbeitsbescheinigung für den Antrag auf Arbeitslosengeld"
+         },
+         {
+            "id":27,
+            "name":"Arbeitsbescheinigung für Gefangene"
+         },
+         {
+            "id":28,
+            "name":"Bescheinigung über Nebeneinkommen bei Bezug von Arbeitslosengeld"
+         },
+         {
+            "id":29,
+            "name":"Bescheinigung zur Übernahme von Beiträgen der Altersvorsorge"
+         },
+         {
+            "id":30,
+            "name":"Bescheinigung zur Übernahme von Beiträgen der Kranken- und Pflegeversicherung"
+         },
+         {
+            "id":31,
+            "name":"Bescheinigung für den Bezug von Teilarbeitslosengeld"
+         },
+         {
+            "id":32,
+            "name":"Zusatzblatt Werbungskosten"
+         },
+         {
+            "id":33,
+            "name":"Zusatzblatt für Familienangehörige zum Antrag auf Arbeitslosengeld"
+         },
+         {
+            "id":34,
+            "name":"Zusatzblatt für Gesellschafter oder Geschäftsführer zum Antrag auf Arbeitslosengeld"
+         },
+         {
+            "id":35,
+            "name":"Zusatzblatt für Schülerinnen, Schüler und Studierende zum Antrag auf Arbeitslosengeld"
+         },
+         {
+            "id":36,
+            "name":"Zusatzblatt zur Sozialversicherung zum Antrag auf Arbeitslosengeld"
+         },
+         {
+            "id":37,
+            "name":"Zusatzblatt Zeiten der Kindererziehung"
+         },
+         {
+            "id":38,
+            "name":"Unfallfragebogen"
+         },
+         {
+            "id":39,
+            "name":"Fragebogen zu Auslandszeiten"
+         },
+         {
+            "id":40,
+            "name":"Ver­änderungs­mitteilung"
+         },
+         {
+            "id":41,
+            "name":"Weiter­­­be­willigungs­­antrag"
+         },
+         {
+            "id":42,
+            "name":"Ortsabwesenheit online anfragen"
+         },
+         {
+            "id":43,
+            "name":"Antrag auf Bürgergeld nach dem Zweiten Buch Sozialgesetzbuch (SGB II)"
+         },
+         {
+            "id":44,
+            "name":"Antrag auf Weiterbewilligung des Bürgergeldes nach dem Zweiten Buch Sozialgesetzbuch SGB II"
+         },
+         {
+            "id":45,
+            "name":"Veränderungsmitteilung bei Bezug von Bürgergeld nach dem Zweiten Buch Sozialgesetzbuch SGB II"
+         },
+         {
+            "id":46,
+            "name":"Anfrage Ortsabwesenheit"
+         },
+         {
+            "id":47,
+            "name":"Arbeitsbescheinigung für den Antrag auf Bürgergeld"
+         },
+         {
+            "id":48,
+            "name":"Formular zur Einkommensbescheinigung"
+         },
+         {
+            "id":49,
+            "name":"Anlage für eine weitere Person ab 15 Jahren in der Bedarfsgemeinschaft (WEP)"
+         },
+         {
+            "id":50,
+            "name":"Anlage für ein Kind unter 15 Jahren in der Bedarfsgemeinschaft (KI)"
+         },
+         {
+            "id":51,
+            "name":"Anlage zur Feststellung der Kosten der Unterkunft und Heizung (KDU)"
+         },
+         {
+            "id":52,
+            "name":"Anlage zur Feststellung der Einkommensverhältnisse einer in der Bedarfsgemeinschaft lebenden Person ab 15 Jahren"
+         },
+         {
+            "id":53,
+            "name":"Anlage zum Einkommen Selbstständiger (EKS)"
+         },
+         {
+            "id":54,
+            "name":"Anlage zur Selbstauskunft/Feststellung der Vermögensverhältnisse der Bedarfsgemeinschaft"
+         },
+         {
+            "id":55,
+            "name":"Anlage zur Verantwortungs- und Einstehensgemeinschaft (VE)"
+         },
+         {
+            "id":56,
+            "name":"Sozialversicherung der Bezieherinnen und Bezieher von Bürgergeld (SV)"
+         },
+         {
+            "id":57,
+            "name":"Anlage bei Vorliegen einer Haushaltsgemeinschaft (HG)"
+         },
+         {
+            "id":58,
+            "name":"Anlage zum Mehrbedarf für kostenaufwändige Ernährung (MEB)"
+         },
+         {
+            "id":59,
+            "name":"Anlage für Unterhaltsansprüche gegenüber getrennt Lebenden (UH1)"
+         },
+         {
+            "id":60,
+            "name":"Anlage für Unterhaltsansprüche bei Schwangerschaft und Betreuung nichtehelicher Kinder (UH2)"
+         },
+         {
+            "id":61,
+            "name":"Anlage für Unterhaltsansprüche von Kindern unter 25 Jahren (UH3)"
+         },
+         {
+            "id":62,
+            "name":"Anlage für Unterhaltsansprüche gegenüber Elternteilen außerhalb der Bedarfsgemeinschaft (UH4)"
+         },
+         {
+            "id":63,
+            "name":"Anlage für besondere Bedarfe (BB)"
+         },
+         {
+            "id":64,
+            "name":"Unfallfragebogen zum Antrag auf Bürgergeld nach dem Zweiten Buch Sozialgesetzbuch (SGB II) (UF)"
+         },
+         {
+            "id":65,
+            "name":"Anlage zur Schweigepflichtentbindung (SE)"
+         },
+         {
+            "id":66,
+            "name":"Antrag auf Ausstellung eines PD U1"
+         },
+         {
+            "id":67,
+            "name":"Fragebogen zu Auslandszeiten"
+         },
+         {
+            "id":68,
+            "name":"Zusatzblatt zur Prüfung von Grenzgängern zum Antrag auf Arbeitslosengeld"
+         },
+         {
+            "id":69,
+            "name":"Antrag auf Ausstellung eines E 301"
+         },
+         {
+            "id":70,
+            "name":"Vordruck zur Erklärung zum Werkvertrag"
+         },
+         {
+            "id":71,
+            "name":"Erklärung zum Liefer- und Montagevertrag von Fertighausherstellern mit Sitz im Ausland"
+         },
+         {
+            "id":72,
+            "name":"Antrag auf Auszahlung der Vermittlungsvergütung (für Gutscheine mit einem Gültigkeitsbeginn bis einschließlich 31.12.2021)"
+         },
+         {
+            "id":73,
+            "name":"Antrag auf Auszahlung der Vermittlungsvergütung (für Gutscheine mit einem Gültigkeitsbeginn ab 01.01.2022)"
+         },
+         {
+            "id":74,
+            "name":"Formular zur Vermittlungs- und Beschäftigungsbestätigung"
+         },
+         {
+            "id":75,
+            "name":"Erklärung des Au-pair zum Empfang der Au-pair-Informationen"
+         },
+         {
+            "id":76,
+            "name":"Au-Pair Fragebogen für Gasteltern"
+         },
+         {
+            "id":77,
+            "name":"Au-Pair-Vertrag"
+         },
+         {
+            "id":78,
+            "name":"Berufsausbildungsbeihilfe"
+         },
+         {
+            "id":79,
+            "name":"Betriebsnummer beantragen"
+         },
+         {
+            "id":80,
+            "name":"Kurzfragebogen für zugelassene Maßnahmen"
+         },
+         {
+            "id":81,
+            "name":"Anlage zum Kurzfragebogen für zugelassene Maßnahmen"
+         },
+         {
+            "id":82,
+            "name":"Formular für den teilnehmerbezogenen Bericht (nur für den Rechtskreis SGB II)"
+         },
+         {
+            "id":83,
+            "name":"Formular für Maßnahmen bei einem Arbeitgeber"
+         },
+         {
+            "id":84,
+            "name":"Formular zur Teilnahmebescheinigung an einer Maßnahme zur Teilhabe behinderter Menschen am Arbeitsleben"
+         },
+         {
+            "id":85,
+            "name":"Antrag auf Weiterzahlung der Lehrgangskosten im Bereich SGB II"
+         },
+         {
+            "id":86,
+            "name":"Formular zur Austritts- oder Nichtantrittsmeldung im Bereich SGB II"
+         },
+         {
+            "id":87,
+            "name":"Formular zur Bescheinigung von Fehlzeiten im Bereich SGB II"
+         },
+         {
+            "id":88,
+            "name":"Formular zur Änderungsmitteilung bei Weiterbildungsmaßnahmen im Bereich SGB II"
+         },
+         {
+            "id":89,
+            "name":"Anzeige zur Entlassung gemäß Kündigungsschutzgesetz"
+         },
+         {
+            "id":90,
+            "name":"Liste für Angaben für die Arbeitsvermittlung"
+         },
+         {
+            "id":91,
+            "name":"Angebot Ferienjob"
+         },
+         {
+            "id":92,
+            "name":"Formular zur Bewerbung für Ferienbeschäftigung von ausländischen Studierenden"
+         },
+         {
+            "id":93,
+            "name":"Antragsformular Ferienbeschäftigung für ausländische Studierende, Fachschüler/innen"
+         },
+         {
+            "id":94,
+            "name":"Declaration of Certificate of Enrolment"
+         },
+         {
+            "id":95,
+            "name":"Hinweise zum Versicherungspflichtverhältnis auf Antrag in der Arbeitslosenversicherung"
+         },
+         {
+            "id":96,
+            "name":"Antrag auf Versicherungspflichtverhältnis für Auslandsbeschäftigte"
+         },
+         {
+            "id":97,
+            "name":"Antrag auf Versicherungspflichtverhältnis bei beruflicher Weiterbildung"
+         },
+         {
+            "id":98,
+            "name":"Antrag auf Versicherungspflichtverhältnis bei Elternzeit"
+         },
+         {
+            "id":99,
+            "name":"Antrag auf Versicherungspflichtverhältnis für Selbstständige"
+         },
+         {
+            "id":100,
+            "name":"Versicherungspflichtverhältnis auf Antrag - Arbeitsbescheinigung"
+         },
+         {
+            "id":101,
+            "name":"Versicherungspflichtverhältnis auf Antrag - Veränderungsanzeige"
+         },
+         {
+            "id":102,
+            "name":"SEPA-Lastschriftmandat"
+         },
+         {
+            "id":103,
+            "name":"Insolvenzgeld"
+         },
+         {
+            "id":104,
+            "name":"Antrag auf Insolvenzgeld"
+         },
+         {
+            "id":105,
+            "name":"Zusatzblatt für Familienangehörige zum Antrag auf Insolvenzgeld"
+         },
+         {
+            "id":106,
+            "name":"Zusatzblatt für Gesellschafter(innen) und Geschäftsführer(innen) zum Antrag auf Insolvenzgeld"
+         },
+         {
+            "id":107,
+            "name":"Antrag auf Zustimmung zur Vorfinanzierung"
+         },
+         {
+            "id":108,
+            "name":"Antrag auf Insolvenzgeld für Dritte"
+         },
+         {
+            "id":109,
+            "name":"Antrag auf Insolvenzgeld für Einzugsstellen"
+         },
+         {
+            "id":110,
+            "name":"Bescheinigung für Insolvenzgeld"
+         },
+         {
+            "id":111,
+            "name":"Kindergeld ab Geburt"
+         },
+         {
+            "id":112,
+            "name":"Kindergeld für Kinder ab 18 Jahren"
+         },
+         {
+            "id":113,
+            "name":"Antrag auf Kindergeld (KG1)"
+         },
+         {
+            "id":114,
+            "name":"Anlage Kind zum Hauptantrag Kindergeld (KG1-AnK)"
+         },
+         {
+            "id":115,
+            "name":"Veränderungen zum Kindergeld"
+         },
+         {
+            "id":116,
+            "name":"Veränderungsmitteilung für das Kindergeld (KG45)"
+         },
+         {
+            "id":117,
+            "name":"Bescheinigung für das Kindergeld zum möglichen Umfang der Erwerbstätigkeit (KG 4l)"
+         },
+         {
+            "id":118,
+            "name":"Bescheinigung für das Kindergeld über die Notwendigkeit der ständigen Begleitung (KG 4m)"
+         },
+         {
+            "id":119,
+            "name":"Antrag auf Auszahlung des Kindergeldes - Abzweigungsantrag (KG 11e)"
+         },
+         {
+            "id":120,
+            "name":"Erklärung für ein Kind ohne Ausbildungs- oder Arbeitsplatz (KG 11a)"
+         },
+         {
+            "id":121,
+            "name":"Antrag auf Kindergeld für Vollwaisen"
+         },
+         {
+            "id":122,
+            "name":"Schulbescheinigung für das Kindergeld (KG 5a)"
+         },
+         {
+            "id":123,
+            "name":"Lebensbescheinigung für das Kindergeld (KG 3b)"
+         },
+         {
+            "id":124,
+            "name":"Bescheinigung für das Kindergeld über das Vorliegen einer Behinderung (KG 4i)"
+         },
+         {
+            "id":125,
+            "name":"Bescheinigung für das Kindergeld über unbedingt erforderliche Betreuungsleistungen (KG 4k)"
+         },
+         {
+            "id":126,
+            "name":"Bescheinigung für das Kindergeld zum möglichen Umfang der Erwerbstätigkeit (KG 4l)"
+         },
+         {
+            "id":127,
+            "name":"Bescheinigung für das Kindergeld über die Notwendigkeit der ständigen Begleitung (KG 4m)"
+         },
+         {
+            "id":128,
+            "name":"Erklärung zum Ausbildungsverhältnis (KG 5b)"
+         },
+         {
+            "id":129,
+            "name":"Erklärung zum verfügbaren Nettoeinkommen eines volljährigen Kindes mit Behinderung (KG 4f)"
+         },
+         {
+            "id":130,
+            "name":"Erklärung zum Nettoeinkommen der Partnerin oder des Partners eines volljährigen Kindes mit Behinderung (KG 4g)"
+         },
+         {
+            "id":131,
+            "name":"Anlage Ausland zum Antrag auf deutsches Kindergeld (KG 51)"
+         },
+         {
+            "id":132,
+            "name":"Anlage Ausland für Rentner und Waisen mit Auslandswohnsitz (KG 51R)"
+         },
+         {
+            "id":133,
+            "name":"Antragspaket zum Kinderzuschlag"
+         },
+         {
+            "id":134,
+            "name":"Kurzantrag auf Kinderzuschlag bei unveränderten Verhältnissen (KiZ 1-K)"
+         },
+         {
+            "id":135,
+            "name":"Ausfüllhinweise zum Antrag auf Kinderzuschlag (KiZ 1-H)"
+         },
+         {
+            "id":136,
+            "name":"Anlage Antragsteller(in) und Partner(in) zum Antrag auf Kinderzuschlag (KiZ 1-AnA)"
+         },
+         {
+            "id":137,
+            "name":"Verdienstbescheinigung des Arbeitgebers (KiZ 5)"
+         },
+         {
+            "id":138,
+            "name":"Anlage zum Einkommen aus selbständiger Tätigkeit (KiZ 5a)"
+         },
+         {
+            "id":139,
+            "name":"Anlage zu Unterhalt und Unterhaltsvorschuss (KiZ 5c)"
+         },
+         {
+            "id":140,
+            "name":"Anlage zum (erheblichen) Vermögen (KiZ 6)"
+         },
+         {
+            "id":141,
+            "name":"Anlage zum Mehrbedarf bei kostenaufwändiger Ernährung (KiZ 7)"
+         },
+         {
+            "id":142,
+            "name":"Zusatzblatt KiZ 1a zum Antrag auf Kinderzuschlag"
+         },
+         {
+            "id":143,
+            "name":"Änderungsmitteilung zum Kinderzuschlag (KiZ 45)"
+         },
+         {
+            "id":144,
+            "name":"Anzeige über Arbeitsausfall"
+         },
+         {
+            "id":145,
+            "name":"Antrag auf Kurzarbeitergeld bis 30.06.2022"
+         },
+         {
+            "id":146,
+            "name":"Antrag auf Kurzarbeitergeld für Grenzgänger"
+         },
+         {
+            "id":147,
+            "name":"Antrag auf Transfer-Kurzarbeitergeld"
+         },
+         {
+            "id":148,
+            "name":"Antrag auf auf Förderung der Teilnahme an Transfermaßnahmen"
+         },
+         {
+            "id":149,
+            "name":"Projektkalkulation für Transfermaßnahmen nach § 110 SGB III"
+         },
+         {
+            "id":150,
+            "name":"Liste der Teilnehmenden an Transfermaßnahmen"
+         },
+         {
+            "id":151,
+            "name":"Abrechnungsliste für Kurzarbeitergeld bis 30.06.2022"
+         },
+         {
+            "id":152,
+            "name":"Abrechnungsliste für Saison-Kurzarbeitergeld und ergänzende Leistungen - Anlage zum Leistungsantrag auf Saison-Kurzarbeitergeld und ergänzende Leistungen ab 12/2022"
+         },
+         {
+            "id":153,
+            "name":"Abrechnungsliste für das Transfer-Kurzarbeitergeld"
+         },
+         {
+            "id":154,
+            "name":"Abrechnungsliste zur Förderung der Teilnahme an Transfermaßnahmen"
+         },
+         {
+            "id":155,
+            "name":"Studienfachbezogene Praktika - Erfassungsbogen"
+         },
+         {
+            "id":156,
+            "name":"Verpflichtungserklärung"
+         },
+         {
+            "id":157,
+            "name":"Empfehlung der fachkundigen Stelle zur selbstständigen Tätigkeit"
+         },
+         {
+            "id":158,
+            "name":"Antrag auf Versicherungspflichtverhältnis für Selbstständige"
+         },
+         {
+            "id":159,
+            "name":"Hinweise zum Versicherungspflichtverhältnis auf Antrag in der Arbeitslosenversicherung"
+         },
+         {
+            "id":160,
+            "name":"Antrag auf Weiterzahlung der Lehrgangskosten im Bereich SGB III"
+         },
+         {
+            "id":161,
+            "name":"Antrag auf Erstattung der Beitragsaufwendungen für Menschen mit Behinderungen - SGB III"
+         },
+         {
+            "id":162,
+            "name":"Formular zur Änderungsmitteilung bei Weiterbildungsmaßnahmen"
+         },
+         {
+            "id":163,
+            "name":"Formular zur Mitteilung von Änderungen zum Erstattungsantrag"
+         },
+         {
+            "id":164,
+            "name":"Fragebogen zu Erfahrungen mit beruflichen Weiterbildungsmaßnahmen"
+         },
+         {
+            "id":165,
+            "name":"Kurzfragebogen für Weiterbildungsmaßnahmen"
+         },
+         {
+            "id":166,
+            "name":"Anlage zum Kurzfragebogen über Maßnahmeabschnitte"
+         },
+         {
+            "id":167,
+            "name":"Anlage zum Kurzfragebogen für zugelassene Maßnahmen"
+         },
+         {
+            "id":168,
+            "name":"Ergebnisbogen zur Förderung der beruflichen Weiterbildung"
+         },
+         {
+            "id":169,
+            "name":"Formular zur Bescheinigung von Fehlzeiten"
+         },
+         {
+            "id":170,
+            "name":"Formular zur Bescheinigung von Arbeitgeber- und Trägerleistungen"
+         }
+      ]
+   }
 ]

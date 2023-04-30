@@ -1,13 +1,14 @@
 # Aufgaben
-- [ ] **[?]**   In database.json eine realistische Liste aus Behörden & Anträge finden und ergänzen.
-- [ ] **[EO]**   Bei einem Antrag das Feld `formular` mit allen Feldern des Antrags ergänzen. Dabei sollten Felder von Typen `text`, `number`, `date`, `boolean`, `email` Erfasst werden
-- [ ] **[AD]**  Suche implementieren
-- [ ] **[AD]**  Formular implementieren
-- [ ] **[EO]**   Fragen, die das System an Chatbot stellen sollte
-- [ ] **[?]**   5 minutige Präsentationsidee & 15 minutige Gruppendiskussion vorbereiten
-- [ ] **[?]**   SWOT Analysis & Welche aspekte sind wichtig?
-- [ ] **[?]**   2 DPs vorstellen, 2 Frage pro DP, DPs evaluieren
-- [ ] **[?]**   Experte
+- [ ] **[MR]**     In database.json eine realistische Liste aus Behörden & Anträgen finden und ergänzen.
+- [ ] **[EO]**    Bei einem Antrag das Feld `formular` mit allen Feldern des Antrags ergänzen. Dabei sollten Felder von Typen `text`, `number`, `date`, `boolean`, `email` Erfasst werden
+- [ ] **[AD]**    Suche implementieren
+- [ ] **[AD]**    Formular implementieren
+- [ ] **[EO/AD]** Fragen, die das System an Chatbot stellen sollte
+- [ ] **[?]**     2 DPs vorstellen, 2 Frage pro DP, DPs evaluieren [P]
+- [ ] **[RN]**    SWOT Analysis & Welche Aspekte sind wichtig? [P]
+
+- [ ] **[?]**     5 minütige Präsentationsidee & 15 minütige Gruppendiskussion vorbereiten
+- [ ] **[?]**     Experte
 
 # Einrichtung
 

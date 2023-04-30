@@ -2,6 +2,7 @@ import { resolve, join } from 'path'
 import HtmlWebpackPlugin from 'html-webpack-plugin'
 import TsconfigPathsPlugin from 'tsconfig-paths-webpack-plugin'
 import ResolveTypeScriptPlugin from 'resolve-typescript-plugin'
+import CopyWebpackPlugin from 'copy-webpack-plugin'
 
 export default (_, args) => {
 	return ({
@@ -45,6 +46,7 @@ export default (_, args) => {
 					</html>
 				`
 			}),
+			new CopyWebpackPlugin({patterns: [{ from: 'wohngeld.pdf', to: 'wohngeld.pdf' }]})
 		],
 		resolve: {
 			extensions: ['.ts', '.js'],

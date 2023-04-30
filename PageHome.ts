@@ -4,32 +4,31 @@ import data from './database.json'
 
 type Agency = {
 	name: string
-	antraege?: Array<AgencyApplication>
+	applications?: Array<AgencyApplication>
 }
 
 type AgencyApplication = {
 	name: string
-	felder?: Array<AgencyApplicationFormField>
+	active?: boolean
 }
 
-type AgencyApplicationFormField = {
-	type: 'text' | 'number' | 'date' | 'boolean' | 'address'
-	name: string
-}
 
 @component('prototpe-page-home')
 @route('/')
 export class PageHome extends PageComponent {
 	@state() private searchKeyword?: string
 	@state() private selectedAgency?: Agency
-	@state() private selectedApplication?: AgencyApplication
+	@state() private housingBenefitsActive = false
 
 	static override get styles() {
 		return css`
 			mo-card {
 				position: relative;
 				height: 200px;
-				cursor: pointer
+			}
+
+			mo-card:not([disabled]) {
+				cursor: pointer;
 			}
 
 			.badge {
@@ -63,13 +62,18 @@ export class PageHome extends PageComponent {
 	}
 
 	protected get contentTemplate() {
+		if (this.housingBenefitsActive) {
+			return html`
+				<iframe src='/wohngeld.pdf'></iframe>
+			`
+		}
 		const searchKeyword = this.searchKeyword?.trim().toLowerCase()
 		const applications = data.map(agency => this.getAgencyTemplate(agency))
-		const applicationsOfSelectedAgency = this.selectedAgency?.antraege?.map(a => this.getApplicationTemplate(a))
+		const applicationsOfSelectedAgency = this.selectedAgency?.applications?.map(a => this.getApplicationTemplate(a))
 		const searchResults = !searchKeyword ? nothing
 			: [
 				...data.filter(agency => agency.name.toLowerCase().includes(searchKeyword)).map(agency => this.getAgencyTemplate(agency)),
-				...data.flatMap(agency => agency.antraege?.filter(application => application.name.toLowerCase().includes(searchKeyword)).map(application => this.getApplicationTemplate(application))) ?? []
+				...data.flatMap(agency => agency.applications?.filter(application => application.name.toLowerCase().includes(searchKeyword)).map(application => this.getApplicationTemplate(application))) ?? []
 			]
 
 		return html`
@@ -94,8 +98,8 @@ export class PageHome extends PageComponent {
 					<mo-icon icon='assured_workload'
 						style='font-size: 50px; color: var(--mo-color-gray);'
 					></mo-icon>
-					${!agency.antraege?.length ? nothing : html`
-						<span class='badge'>${agency.antraege?.length} Anträge</span>
+					${!agency.applications?.length ? nothing : html`
+						<span class='badge'>${agency.applications?.length} Anträge</span>
 					`}
 					<span class='name'>${agency.name}</span>
 				</mo-flex>
@@ -105,22 +109,22 @@ export class PageHome extends PageComponent {
 
 	private getApplicationTemplate(application: AgencyApplication) {
 		return html`
-			<mo-card style='height: 200px; cursor: pointer' @click=${() => this.selectedApplication = application}>
+			<mo-card ?disabled=${!application.active} @click=${() => !application.active ? void 0 : this.housingBenefitsActive = true}>
 				<mo-flex alignItems='center' justifyContent='center' gap='10px' style='height: 100%'>
 					<mo-icon icon='description'
 						style='font-size: 50px; color: var(--mo-color-gray);'
 					></mo-icon>
-					<span class='badge' ${style({ background: !application.felder?.length ? 'rgba(255,0,0,0.2)' : 'rgba(0,200,0,0.2)' })}>
-						${!application.felder?.length ? 'Inaktiv' : 'Aktiv'}
+					<span class='badge' ${style({ background: !application.active ? 'rgba(255,0,0,0.2)' : 'rgba(0,200,0,0.2)' })}>
+						${!application.active ? 'Inaktiv' : 'Aktiv'}
 					</span>
-					<span>${application.name}</span>
+					<span class='name'>${application.name}</span>
 				</mo-flex>
 			</mo-card>
 		`
 	}
 
 	protected get bingAiTemplate() {
-		return true as boolean ? nothing : html`
+		return html`
 			<mo-card style='flex: 0 0 500px; --mo-card-body-padding: 0px; height: 100%'>
 				<iframe src='https://www.bing.com/search?form=MY0291&OCID=MY0291&q=Bing+AI&showconv=1'
 					style='height: 100%; width: 100%; border: none;'

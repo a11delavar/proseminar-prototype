@@ -12,50 +12,6 @@
 		]
 	},
 	{
-		"name": "Bürgeramt 2",
-		"applications": [
-			{
-				"name": "Antrag 3"
-			},
-			{
-				"name": "Antrag 4"
-			}
-		]
-	},
-	{
-		"name": "Bürgeramt 3",
-		"applications": [
-			{
-				"name": "Antrag 5"
-			},
-			{
-				"name": "Antrag 6"
-			}
-		]
-	},
-	{
-		"name": "Bürgeramt 4",
-		"applications": [
-			{
-				"name": "Antrag 7"
-			},
-			{
-				"name": "Antrag 8"
-			}
-		]
-	},
-	{
-		"name": "Bürgeramt 5",
-		"applications": [
-			{
-				"name": "Antrag 9"
-			},
-			{
-				"name": "Antrag 10"
-			}
-		]
-	},
-	{
 		"name": "Justizportal des Bundes und der Länder",
 		"applications": [
 			{

@@ -25,6 +25,8 @@
 		"@3mo/icon": "x",
 		"@3mo/mutation-observer": "x",
 		"@3mo/splitter": "x",
+		"@3mo/text-fields": "^0.0.2",
+		"@3mo/theme": "^0.0.7",
 		"@a11d/lit": "x",
 		"@a11d/lit-application": "x"
 	}

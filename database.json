@@ -12,6 +12,53 @@
 		]
 	},
 	{
+		"name": "Bürgeramt Hamburg",
+		"applications": [
+			{
+				"name": "Anmeldung eines Wohnsitzes oder einer Nebenwohnung"
+			},
+			{
+				"name": "Abmeldung eines Wohnsitzes oder einer Nebenwohnung"
+			},
+			{
+				"name": "Ummeldung eines Wohnsitzes innerhalb der Stadt oder Landes"
+			},
+			{
+				"name": "Beantragung eines Personalausweises oder Reisepasses"
+			},
+			{
+				"name": "Beantragung eines Führungszeugnisses oder eines Auszugs aus dem Gewerbezentralregister"
+			},
+			{
+				"name": "Beantragung einer Meldebescheinigung"
+			},
+			{
+				"name": "Antrag auf eine Namensänderung oder Geburtsurkunde"
+			},
+			{
+				"name": "Beantragung einer Eheurkunde oder einer Lebenspartnerschaftsurkunde"
+			},
+			{
+				"name": "Beantragung einer Sterbeurkunde"
+			},
+			{
+				"name": "Beantragung einer Parkvignette oder eines Parkausweises"
+			},
+			{
+				"name": "Beantragung einer Beglaubigung von Kopien oder Unterschriften"
+			},
+			{
+				"name": "Antrag auf eine Einbürgerung oder eine Staatsangehörigkeitsurkunde"
+			},
+			{
+				"name": "Beantragung einer Verwaltungsvollstreckung"
+			},
+			{
+				"name": "Antrag auf eine Ausnahmegenehmigung, beispielsweise für eine Demonstration oder ein Straßenfest"
+			}
+		]
+	},
+	{
 		"name": "Justizportal des Bundes und der Länder",
 		"applications": [
 			{

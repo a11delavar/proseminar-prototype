@@ -12,6 +12,7 @@ type AgencyApplication = {
 	active?: boolean
 }
 
+console.log(JSON.stringify(data.slice(0, 3)))
 
 @component('prototpe-page-home')
 @route('/')
@@ -79,6 +80,7 @@ export class PageHome extends PageComponent {
 		return html`
 			<mo-flex gap='20px'>
 				<mo-flex direction='horizontal' alignItems='center' gap='10px'>
+					<mo-icon-button icon='arrow_back' @click=${() => this.selectedAgency = undefined}></mo-icon-button>
 					<mo-field-search label='Search' style='flex: 1'
 						@input=${(e: CustomEvent<string>) => this.searchKeyword = e.detail}
 					></mo-field-search>

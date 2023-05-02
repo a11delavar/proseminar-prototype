@@ -15,7 +15,7 @@ type AgencyApplication = {
 console.log(JSON.stringify(data.slice(0, 3)))
 
 @component('prototpe-page-home')
-@route('/')
+	@route('/*')
 export class PageHome extends PageComponent {
 	@state() private searchKeyword?: string
 	@state() private selectedAgency?: Agency
@@ -65,7 +65,7 @@ export class PageHome extends PageComponent {
 	protected get contentTemplate() {
 		if (this.housingBenefitsActive) {
 			return html`
-				<iframe src='/wohngeld.pdf'></iframe>
+				<iframe src='./wohngeld.pdf'></iframe>
 			`
 		}
 		const searchKeyword = this.searchKeyword?.trim().toLowerCase()

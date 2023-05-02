@@ -4,7 +4,8 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"start": "npm install && webpack serve --config webpack.config.js --open --mode=development"
+		"start": "npm install && webpack serve --config webpack.config.js --open --mode=development",
+		"build": "npm install && webpack --config webpack.config.js --mode=production"
 	},
 	"author": "",
 	"license": "ISC",

@@ -1,0 +1,10 @@
+DP1:
+- Inwiefern unterstützt unser Chatbot Benutzer durch Verwendung der Funktionen "Einfache Sprache" und "Übersetzung"?
+- Wie qualitativ sind die automatisch generierten Übersetzungen und vereinfachten Texte?
+
+DP2:
+- Wie leicht ist es für Benutzer, die zuständige Behörde auf der Antragsplattform zu finden?
+
+DP3:
+- Wie einfach ist es für Benutzer, die benötigten Anträge auf der Antragsplattform zu finden?
+- Wie relevant sind die vorgeschlagenen Anträge für die Benutzer und wie gut sind sie auf ihre Bedürfnisse zugeschnitten?
